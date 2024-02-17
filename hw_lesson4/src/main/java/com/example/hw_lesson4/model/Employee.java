@@ -1,8 +1,13 @@
 package com.example.hw_lesson4.model;
 
 
+
+
 import jakarta.persistence.*;
 import lombok.Data;
+
+
+
 
 @Entity
 @Data
