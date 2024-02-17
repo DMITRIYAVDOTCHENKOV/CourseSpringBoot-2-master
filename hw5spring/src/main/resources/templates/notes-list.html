@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Заметки</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}"/>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f3f3f3;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .table-container {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Заметки</h1>
+    <table>
+        <tr>
+            <td width="260"></td>
+            <td><a class="btn btn-secondary" th:href="@{/logout}">Выход</a></td>
+        </tr>
+    </table>
+    <div class="ui-button">
+        Фильтр: <a th:href="@{/notes}">Все заметки</a> или <a th:href="@{/notes-important}">только избранные 📕</a>
+    </div>
+    <div class="table-container">
+        <table class="table table-striped table-hover w-auto">
+            <tr>
+                <th width="30">#</th>
+                <th width="30">📚</th>
+                <th>Заметки</th>
+                <th width="30"></th>
+                <th width="90"></th>
+            </tr>
+            <tr th:each="note : ${notes}">
+                <td th:text="${note.getId()}">Empty</td>
+                <td th:if="${note.getImportant()}"><a th:href="@{/notes-toggle-important/{id}(id=${note.getId()})}">📕</a></td>
+                <td th:unless="${note.getImportant()}"><a th:href="@{/notes-toggle-important/{id}(id=${note.getId()})}">📗</a>
+                </td>
+                <td th:text="${note.getText()}">Empty</td>
+                <td>
+                    <a th:href="@{/notes-edit/{id}(id=${note.getId()})}">
+                        <button type="button" class="btn btn-success">Изменить</button></a>
+                </td>
+                <td>
+                    <a th:href="@{/notes-del/{id}(id=${note.getId()})}">
+                        <button type="button" class="btn btn-danger">Удалить</button></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <a class="btn btn-primary" th:href="@{/notes-create}">Создать</a>
+</div>
+</body>
+</html>

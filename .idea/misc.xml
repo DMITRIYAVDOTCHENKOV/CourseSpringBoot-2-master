@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/seminar_2/SpringGB2024/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/seminar_2/seminar_2_1/config/Exam2Sem2/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/seminar_2/seminar_3/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/seminar_2/seminar_3/seminar3REST/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/seminar_2/seminar_3/HomeTask/pom.xml" />
+        <option value="$PROJECT_DIR$/seminar5task1/pom.xml" />
+        <option value="$PROJECT_DIR$/seminar5task1/seminar5Task2/pom.xml" />
+        <option value="$PROJECT_DIR$/homeWorksSeminar5/pom.xml" />
+        <option value="$PROJECT_DIR$/hw5spring/pom.xml" />
+        <option value="$PROJECT_DIR$/lekciya7/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Seminar7/Exml1Sem7/spring_security_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Seminar7/Example6OlderMan/SpringBoot3.2.0-part02_security/SpringBoot3.2.0/pom.xml" />
+        <option value="$PROJECT_DIR$/HwSeminar7/pom.xml" />
+        <option value="$PROJECT_DIR$/Seminar8/Empl1Sem8/Empl1Sem8/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/seminar_2/siminar_4/hw_lesson4/pom.xml" />
+        <option value="$PROJECT_DIR$/Seminar9/Task_1_1/pom.xml" />
+        <option value="$PROJECT_DIR$/Seminar9/Task_1_1/microservize-1/pom.xml" />
+        <option value="$PROJECT_DIR$/Seminar9/Task_1_1/microservize-2/pom.xml" />
+        <option value="$PROJECT_DIR$/Seminar9/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/seminar_2/siminar_4/hw_lesson4/microservize-1-1/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/seminar_2/siminar_4/hw_lesson4/eureca/pom.xml" />
+        <option value="$PROJECT_DIR$/hw_lesson4/pom.xml" />
+        <option value="$PROJECT_DIR$/hw_lesson4/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/hw_lesson4/eureca/pom.xml" />
+        <option value="$PROJECT_DIR$/seminar_10/Example0Seminar10/sq-ch14-ex1/pom.xml" />
+        <option value="$PROJECT_DIR$/seminar_10/Example1Seminar10_JUNIT_Mockito/sq-ch14-ex1/pom.xml" />
+        <option value="$PROJECT_DIR$/seminar_10/Example2Seminar10_Security/sq-ch9-ex1/pom.xml" />
+        <option value="$PROJECT_DIR$/seminar_10/Java_Spring_Seminar_9_hw-main/pom.xml" />
+        <option value="$PROJECT_DIR$/seminar_11/Example1Sem11/Java_Spring_Seminar_6_HW_task_1-main/pom.xml" />
+      </list>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" project-jdk-name="openjdk-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>

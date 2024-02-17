@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Созданная задача</title>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1 class="text-center">Созданная задача</h1>
+
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <h3 th:text="'Заголовок: ' + ${task.title}">Наименование задачи</h3>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <p th:text="'Описание: ' + ${task.description}" style="overflow-y: auto; max-height: 150px;">Описание задачи</p>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-12">
+            <p><strong>Срок выполнения:</strong> <span th:text="${task.leadTime}" th:classappend="${task.status.name() eq 'TO_DO'} ? 'text-primary' : (${task.status.name() eq 'COMPLETE'} ? 'text-success' : 'text-danger')">Дата выполнения задачи</span></p>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-12 text-center">
+            <a th:href="@{/}" class="btn btn-primary mr-2">На главную</a>
+            <a class="btn btn-success mr-2" th:href="@{/tasks/complete/{id}(id=${task.id})}">Выполнить</a>
+            <a class="btn btn-warning mr-2" th:href="@{/tasks/update/{id}(id=${task.id})}">Редактировать</a>
+            <a class="btn btn-danger" th:href="@{/tasks/delete/{id}(id=${task.id})}">Удалить</a>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

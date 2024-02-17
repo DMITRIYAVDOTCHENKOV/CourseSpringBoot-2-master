@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Exam2Sem2" />
+        <module name="sq-ch14-ex1 (1)" />
+        <module name="seminar-6-hw-1" />
+        <module name="eureka-server (1)" />
+        <module name="demo" />
+        <module name="eureka-server" />
+        <module name="shop-microservizes" />
+        <module name="hw5spring" />
+        <module name="demo (2)" />
+        <module name="sq-ch9-ex1" />
+        <module name="microservize-1" />
+        <module name="microservize-2" />
+        <module name="seminar5task1" />
+        <module name="Task_1_1" />
+        <module name="eureka-server (2)" />
+        <module name="seminar3REST" />
+        <module name="homeWorksSeminar5" />
+        <module name="spring_security_demo" />
+        <module name="sq-ch14-ex1" />
+        <module name="demo (1)" />
+        <module name="hw_lesson4" />
+        <module name="lekciya7" />
+        <module name="api-gateway" />
+        <module name="seminar5Task2" />
+        <module name="SpringBoot3.2.0" />
+        <module name="HomeTask" />
+        <module name="Empl1Sem8" />
+        <module name="HwSeminar7" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CourseSpringBoot" target="20" />
+      <module name="eureca" target="17" />
+      <module name="Exam3Sem2" target="15" />
+      <module name="Exam4Sem2" target="15" />
+      <module name="lesson_4Task2" target="21" />
+      <module name="microservize-1-1" target="17" />
+      <module name="spring_4lesson" target="21" />
+      <module name="task3" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HomeTask" options="-parameters" />
+      <module name="HwSeminar7" options="-parameters" />
+      <module name="SpringBoot3.2.0" options="-parameters" />
+      <module name="Task_1_1" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo (1)" options="-parameters" />
+      <module name="demo (2)" options="-parameters" />
+      <module name="eureca" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server (1)" options="-parameters" />
+      <module name="eureka-server (2)" options="-parameters" />
+      <module name="homeWorksSeminar5" options="-parameters" />
+      <module name="hw5spring" options="-parameters" />
+      <module name="hw_lesson4" options="-parameters" />
+      <module name="lekciya7" options="-parameters" />
+      <module name="lesson_4Task2" options="-parameters" />
+      <module name="microservize-1" options="-parameters" />
+      <module name="microservize-1-1" options="-parameters" />
+      <module name="microservize-2" options="-parameters" />
+      <module name="seminar-6-hw-1" options="-parameters" />
+      <module name="seminar3REST" options="-parameters" />
+      <module name="seminar5Task2" options="-parameters" />
+      <module name="seminar5task1" options="-parameters" />
+      <module name="spring_4lesson" options="-parameters" />
+      <module name="spring_security_demo" options="-parameters" />
+      <module name="sq-ch14-ex1" options="-parameters" />
+      <module name="sq-ch14-ex1 (1)" options="-parameters" />
+      <module name="sq-ch9-ex1" options="-parameters" />
+      <module name="task3" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Ежедневник</title>
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h1>Добавление задачи</h1>
+        </div>
+        <div class="col-12">
+            <p>Давайте добавим новую задачу! Пожалуйста, указывайте дату выполнения задачи в формате "11:10 23-01-2024"!</p>
+        </div>
+    </div>
+    <div class="row task_form">
+        <div class="col-12 form_title">
+            <p>Пожалуйста, заполните все поля:</p>
+        </div>
+        <div class="col-12 input_block">
+            <form th:method="POST" th:action="@{/tasks/add}" th:object="${new_task}">
+                <div class="row justify-content-center">
+                    <div class="col-3 align-middle">
+                        <label for="title"><b>Заголовок задачи:</b></label>
+                    </div>
+                    <div class="col-9 align-self-center">
+                        <div class="input-group mb-3">
+                            <input type="text" th:field="*{title}" id="title" class="form-control"
+                                   aria-label="title">
+                        </div>
+                    </div>
+                </div>
+                <div class="error_message" th:if="${#fields.hasErrors('title')}">
+                    <div class="row justify-content-center">
+                        <div class="col-3 align-middle"></div>
+                        <div class="col-9 align-self-center">
+                            <div style="color: red" th:errors="*{title}">Title Error</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3 align-middle">
+                        <label for="description"><b>Описание задачи:</b></label>
+                    </div>
+                    <div class="col-9 align-self-center">
+                        <div class="input-group mb-3">
+                            <input type="text" th:field="*{description}" id="description" class="form-control"
+                                   aria-label="description">
+                        </div>
+                    </div>
+                </div>
+                <div class="error_message" th:if="${#fields.hasErrors('description')}">
+                    <div class="row justify-content-center">
+                        <div class="col-3 align-middle"></div>
+                        <div class="col-9 align-self-center">
+                            <div style="color: red" th:errors="*{description}">Description error</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-3 align-middle">
+                        <label for="lead_time"><b>Дата выполнения:</b></label>
+                    </div>
+                    <div class="col-9 align-self-center">
+                        <div class="input-group mb-3">
+                            <input type="text" th:field="*{leadTime}"
+                                   class="form-control tel" aria-label="lead_time" id="lead_time">
+                        </div>
+                    </div>
+                </div>
+                <div class="error_message" th:if="${#fields.hasErrors('leadTime')}">
+                    <div class="row justify-content-center">
+                        <div class="col-3 align-middle"></div>
+                        <div class="col-9 align-self-center">
+                            <div style="color: red" th:errors="*{leadTime}">Lead time error</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-2 text-end">
+                        <div class="confirm_input">
+                            <button class="btn btn-primary" type="submit">Создать задачу</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

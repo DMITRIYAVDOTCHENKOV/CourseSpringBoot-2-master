@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+}
+div {
+    margin: 10px;
+}
+
+.validationError {
+    color: red;
+}

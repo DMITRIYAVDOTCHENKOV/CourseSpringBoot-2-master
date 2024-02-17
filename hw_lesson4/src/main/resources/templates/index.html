@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Система управления сотрудниками</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      color: #343a40;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      margin-top: 40px;
+    }
+    table {
+      border-collapse: separate;
+      border-spacing: 0 10px;
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+      background-color: #fff;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    }
+    th, td {
+      padding: 15px;
+    }
+    th {
+      background-color: #f8f9fa;
+      text-align: left;
+    }
+    td {
+      border-top: 1px solid #dee2e6;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    .btn {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <h1 class="text-center mb-4">Список сотрудников</h1>
+  <a th:href="@{/showNewEmployeeForm}" class="btn btn-primary btn-sm mb-3">Добавить сотрудника</a>
+  <div class="table-responsive-md">
+    <table class="table">
+      <thead>
+      <tr>
+        <th>Имя сотрудника</th>
+        <th>Фамилия сотрудника</th>
+        <th>Электронная почта сотрудника</th>
+        <th>Действия</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr th:each="employee : ${listEmployees}">
+        <td th:text="${employee.firstName}"></td>
+        <td th:text="${employee.lastName}"></td>
+        <td th:text="${employee.email}"></td>
+        <td>
+          <a th:href="@{/showFormForUpdate/{id}(id=${employee.id})}" class="btn btn-primary btn-sm">Редактировать</a>
+          <a th:href="@{/deleteEmployee/{id}(id=${employee.id})}" class="btn btn-danger btn-sm">Удалить</a>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="text-center">
+    <div th:if="${totalPages > 1}" class="pagination">
+      <ul class="pagination">
+        <li class="page-item" th:each="i : ${#numbers.sequence(1, totalPages)}">
+          <a class="page-link" th:if="${currentPage != i}" th:href="@{'/page/' + ${i}+ '?sortField=' + ${sortField} + '&sortDir=' + ${sortDir} }" th:text="${i}"></a>
+          <span th:unless="${currentPage != i}" th:text="${i}"></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>

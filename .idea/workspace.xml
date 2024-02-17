@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13c8064d-07aa-45d4-8c67-cbf2d1d4a579" name="Changes" comment="Семинар 9" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="seminar1" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="lesson3hw" />
+        <entry key="$PROJECT_DIR$" value="seminar5hw" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DMITRIYAVDOTCHENKOV"
+  }
+}]]></component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="HwSprinhg3" />
+                    <option name="lastUsedInstant" value="1705752169" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="lesson3hw" />
+                    <option name="lastUsedInstant" value="1705752168" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/.." />
+            </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="springhw4" />
+                    <option name="lastUsedInstant" value="1706426628" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1705259693" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="74e8a35f-0839-47ed-a74b-0927b64595e9" />
+        <option name="url" value="https://github.com/DMITRIYAVDOTCHENKOV/CourseSpringBoot-2-master.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-21.0.2/lib/src.zip!/java.base/java/util/Random.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/hw_lesson4/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2a5fmHoVRoMjiVQPvBg5IpPpv4Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DemoApplication.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main (2).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.seminar_2.Main.executor": "Run",
+    "Application.seminar_2.seminar_2_1.config.Exam2Sem2.src.main.java.org.example.Main.executor": "Run",
+    "Application.seminar_2.seminar_2_1.config.Exam4Sem2.src.main.java.org.example.Main (1).executor": "Run",
+    "Application.seminar_2.seminar_2_1.config.Exam4Sem2.src.main.java.org.example.Main.executor": "Run",
+    "Application.seminar_2.seminar_2_1.config.Main.executor": "Run",
+    "Application.seminar_2.seminar_2_2.Main.executor": "Run",
+    "Application.test.Main.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JUnit.EmployeeServiceImplTest.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.getEmployeeById.executor": "Run",
+    "JUnit.EmployeeServiceImplTest.saveEmployee.executor": "Run",
+    "JUnit.EmployeeServiceIntegrationTest.executor": "Run",
+    "Maven.CourseSpringBoot [package].executor": "Run",
+    "Maven.hw_lesson4 [clean].executor": "Run",
+    "Maven.hw_lesson4 [install].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiGatewayApplication.executor": "Run",
+    "Spring Boot.Application.executor": "Run",
+    "Spring Boot.DemoApplication (1).executor": "Run",
+    "Spring Boot.DemoApplication.executor": "Run",
+    "Spring Boot.EurecaApplication.executor": "Run",
+    "Spring Boot.EurekaServerApplication.executor": "Run",
+    "Spring Boot.HomeTaskApplication.executor": "Run",
+    "Spring Boot.HomeWorksSeminar5Application.executor": "Run",
+    "Spring Boot.Hw5springApplication.executor": "Run",
+    "Spring Boot.HwLesson4Application.executor": "Run",
+    "Spring Boot.HwSeminar7Application.executor": "Run",
+    "Spring Boot.Lekciya7Application.executor": "Run",
+    "Spring Boot.Lesson4Task2Application.executor": "Run",
+    "Spring Boot.Microservize11Application.executor": "Run",
+    "Spring Boot.Microservize1Application.executor": "Run",
+    "Spring Boot.Microservize2Application.executor": "Run",
+    "Spring Boot.Seminar3RestApplication.executor": "Run",
+    "Spring Boot.Seminar5Task2Application.executor": "Run",
+    "Spring Boot.Seminar5task1Application.executor": "Run",
+    "Spring Boot.Spring4lessonApplication.executor": "Run",
+    "Spring Boot.SpringSecurityDemoApplication.executor": "Run",
+    "Spring Boot.Task11Application.executor": "Run",
+    "Spring Boot.Task3Application.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "Seminar__10",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Java/java_Project/CourseSpringBoot-master/hw_lesson4/src/main/resources/templates",
+    "mysql-explain.agentPath": "C:\\Users\\Dmitrii\\AppData\\Roaming\\JetBrains\\IdeaIC2023.3\\plugins\\mysql-explain-intellij-plugin\\lib\\mysql-explain-agent-1.1.1-with-dependencies.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "h2"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "H2"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.HomeTask.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\java_Project\CourseSpringBoot-master\hw_lesson4\src\main\resources\templates" />
+      <recent name="D:\Java\java_Project\CourseSpringBoot-master\src\main\java\seminar_2\siminar_4\hw_lesson4\eureca\src\main\resources" />
+      <recent name="D:\Java\java_Project\CourseSpringBoot-master\Seminar9" />
+      <recent name="D:\Java\java_Project\CourseSpringBoot-master" />
+      <recent name="D:\Java\java_Project\CourseSpringBoot-master\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Java\java_Project\CourseSpringBoot-master\hw_lesson4\src\main\resources" />
+      <recent name="D:\Java\java_Project\CourseSpringBoot-master" />
+      <recent name="D:\Java\java_Project\CourseSpringBoot-master\src\main\java" />
+      <recent name="D:\Java\java_Project\CourseSpringBoot-master\seminar5task1\seminar5Task2\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.hw_lesson4.servicec" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.EmployeeServiceIntegrationTest">
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="Empl1Sem8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw_lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hw_lesson4.servicec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.hw_lesson4.servicec" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hw_lesson4.servicec.EmployeeServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceImplTest.getEmployeeById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw_lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hw_lesson4.servicec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.hw_lesson4.servicec" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hw_lesson4.servicec.EmployeeServiceImplTest" />
+      <option name="METHOD_NAME" value="getEmployeeById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceImplTest.saveEmployee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw_lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hw_lesson4.servicec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.hw_lesson4.servicec" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hw_lesson4.servicec.EmployeeServiceImplTest" />
+      <option name="METHOD_NAME" value="saveEmployee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeServiceIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hw_lesson4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hw_lesson4.servicec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.hw_lesson4.servicec" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hw_lesson4.servicec.EmployeeServiceIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringBoot3.2.0" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="willydekeyser.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurecaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.eureca.EurecaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="eureka-server (2)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eurekaserver.EurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HomeTask" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.HomeTask.HomeTaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hw5springApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hw5spring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.hw5spring.Hw5springApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HwLesson4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hw_lesson4" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hw_lesson4.HwLesson4Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HwSeminar7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="HwSeminar7" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.hwseminar7.HwSeminar7Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lekciya7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="lekciya7" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.lekciya7.Lekciya7Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sq-ch14-ex1 (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sq-ch9-ex1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sq-ch14-ex1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Microservize11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="microservize-1-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.microservize11.Microservize11Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Microservize1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="microservize-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.microservize1.Microservize1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Microservize2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="microservize-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.microservize2.Microservize2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Seminar3RestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seminar3REST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.seminar3REST.Seminar3RestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Seminar5Task2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seminar5Task2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.seminar5task2.Seminar5Task2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Seminar5task1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seminar5task1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.seminar5task1.Seminar5task1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Seminar6Hw1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="seminar-6-hw-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.maliutin.seminar6hw1.Seminar6Hw1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Spring4lessonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring_4lesson" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring_4lesson.Spring4lessonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="spring_security_demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring_security_demo.SpringSecurityDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Task_1_1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.task_1_1.Task11Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.task3.Task3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmployeeServiceIntegrationTest" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest.saveEmployee" />
+        <item itemvalue="JUnit.EmployeeServiceImplTest.getEmployeeById" />
+        <item itemvalue="Application.Main (2)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13c8064d-07aa-45d4-8c67-cbf2d1d4a579" name="Changes" comment="" />
+      <created>1703613523052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703613523052</updated>
+      <workItem from="1705237300247" duration="13404000" />
+      <workItem from="1705515827669" duration="1564000" />
+      <workItem from="1705688379938" duration="1345000" />
+      <workItem from="1705690187758" duration="5281000" />
+      <workItem from="1705739996639" duration="164000" />
+      <workItem from="1705740487729" duration="12925000" />
+      <workItem from="1705753441133" duration="2564000" />
+      <workItem from="1705756018704" duration="1795000" />
+      <workItem from="1705780617387" duration="3283000" />
+      <workItem from="1705826601485" duration="1714000" />
+      <workItem from="1706359458598" duration="2488000" />
+      <workItem from="1706366339802" duration="6996000" />
+      <workItem from="1706551001830" duration="3065000" />
+      <workItem from="1706722674849" duration="3125000" />
+      <workItem from="1706898884535" duration="1917000" />
+      <workItem from="1707033475545" duration="3994000" />
+      <workItem from="1707042063436" duration="6376000" />
+      <workItem from="1707051581601" duration="1110000" />
+      <workItem from="1707395313089" duration="3133000" />
+      <workItem from="1707403614896" duration="6403000" />
+      <workItem from="1707410535421" duration="1850000" />
+      <workItem from="1707501812574" duration="7176000" />
+      <workItem from="1707593367854" duration="1725000" />
+      <workItem from="1707763935302" duration="664000" />
+      <workItem from="1707848150024" duration="2130000" />
+      <workItem from="1708015716032" duration="1012000" />
+      <workItem from="1708153299506" duration="3757000" />
+    </task>
+    <task id="LOCAL-00001" summary="Домашняя работа по 1 семинару">
+      <option name="closed" value="true" />
+      <created>1703784596537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703784596537</updated>
+    </task>
+    <task id="LOCAL-00002" summary="семинар 2">
+      <option name="closed" value="true" />
+      <created>1705255545897</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705255545897</updated>
+    </task>
+    <task id="LOCAL-00003" summary="семинар 2">
+      <option name="closed" value="true" />
+      <created>1705259516957</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705259516957</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Домашняя работа 4 семинар">
+      <option name="closed" value="true" />
+      <created>1706349701034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706349701034</updated>
+    </task>
+    <task id="LOCAL-00005" summary="семинар5">
+      <option name="closed" value="true" />
+      <created>1706373100818</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706373100818</updated>
+    </task>
+    <task id="LOCAL-00006" summary="семинар5hw">
+      <option name="closed" value="true" />
+      <created>1706426948131</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706426948131</updated>
+    </task>
+    <task id="LOCAL-00007" summary="семинар7hw">
+      <option name="closed" value="true" />
+      <created>1706899009452</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706899009452</updated>
+    </task>
+    <task id="LOCAL-00008" summary="семинар7hw">
+      <option name="closed" value="true" />
+      <created>1706899080232</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706899080232</updated>
+    </task>
+    <task id="LOCAL-00009" summary="семинар7 домашняя работа">
+      <option name="closed" value="true" />
+      <created>1706901201608</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706901201608</updated>
+    </task>
+    <task id="LOCAL-00010" summary="семинар8 домашняя работа">
+      <option name="closed" value="true" />
+      <created>1707050972186</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707050972186</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Семинар 9">
+      <option name="closed" value="true" />
+      <created>1707406970180</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707406970181</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="springhw4" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Домашняя работа по 1 семинару" />
+    <MESSAGE value="семинар 2" />
+    <MESSAGE value="Домашняя работа 4 семинар" />
+    <MESSAGE value="семинар5" />
+    <MESSAGE value="семинар5hw" />
+    <MESSAGE value="семинар7hw" />
+    <MESSAGE value="семинар7 домашняя работа" />
+    <MESSAGE value="семинар8 домашняя работа" />
+    <MESSAGE value="Семинар 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Семинар 9" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.NoSuchBeanDefinitionException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

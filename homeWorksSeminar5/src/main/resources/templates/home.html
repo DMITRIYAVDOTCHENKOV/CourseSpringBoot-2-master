@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" th:href="@{scc/home.css}">
+    <title>Ежедневник</title>
+</head>
+<body>
+
+<div class="container mt-5">
+    <h1>Ежедневник</h1>
+    <p>Добро пожаловать в приложение «Ежедневник», здесь вы удобно можете сформировать предстоящие задачи, отслеживать процесс их выполнения, контролировать текущие, с оканчиваемым сроком исполнения и просроченные задачи.</p>
+
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <h2>Текущие задачи</h2>
+            <table>
+                <div th:if="${tasks_TO_DO.isEmpty()}">
+                    <tr>
+                        <td>У Вас нет текущих задач!</td>
+                    </tr>
+                </div>
+                <div th:if="${!tasks_TO_DO.isEmpty()}">
+                    <tr>
+                        <th>Задача</th>
+                        <th>Срок</th>
+                    </tr>
+
+                    <div th:each="task : ${tasks_TO_DO}">
+                        <tr>
+                            <td>
+                                <a th:href="@{/tasks/{id}(id=${task.id})}">
+                                    <span th:text="${task.getTitle()}">TITLE</span>
+                                </a>
+                            </td>
+                            <td>
+                                <span th:text="${task.leadTime}">DATE</span>
+                            </td>
+                            <td class="task-actions">
+                                <a href="#" th:href="@{/tasks/complete/{id}(id=${task.id})}">
+                                    <img th:src="@{icon/green-check.png}" alt="Complete Task">
+                                </a>
+                                <a href="#" th:href="@{/tasks/delete/{id}(id=${task.id})}">
+                                    <img th:src="@{icon/cross-delete.png}" alt="Delete Task">
+                                </a>
+                            </td>
+                        </tr>
+                    </div>
+                </div>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <h2>Истекает срок</h2>
+            <table>
+                <div th:if="${tasks_EXPIRE.isEmpty()}">
+                    <tr>
+                        <td>У Вас нет задач с истекающим сроком!</td>
+                    </tr>
+                </div>
+                <div th:if="${!tasks_EXPIRE.isEmpty()}">
+                    <tr>
+                        <th>Задача</th>
+                        <th>Срок</th>
+                    </tr>
+
+                    <div th:each="task : ${tasks_EXPIRE}">
+                        <tr>
+                            <td>
+                                <a th:href="@{/tasks/{id}(id=${task.id})}">
+                                    <span th:text="${task.getTitle()}">TITLE</span>
+                                </a>
+                            </td>
+                            <td>
+                                <span th:text="${task.leadTime}">DATE</span>
+                            </td>
+                            <td class="task-actions">
+                                <a href="#" th:href="@{/tasks/complete/{id}(id=${task.id})}">
+                                    <img th:src="@{icon/green-check.png}" alt="Complete Task">
+                                </a>
+                                <a href="#" th:href="@{/tasks/delete/{id}(id=${task.id})}">
+                                    <img th:src="@{icon/cross-delete.png}" alt="Delete Task">
+                                </a>
+                            </td>
+                        </tr>
+                    </div>
+                </div>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <h2>Просроченные задачи</h2>
+            <table>
+                <div th:if="${tasks_OVERLAY.isEmpty()}">
+                    <tr>
+                        <td>У Вас нет просроченных задач!</td>
+                    </tr>
+                </div>
+                <div th:if="${!tasks_OVERLAY.isEmpty()}">
+                    <tr>
+                        <th>Задача</th>
+                        <th>Срок</th>
+                    </tr>
+
+                    <div th:each="task : ${tasks_OVERLAY}">
+                        <tr>
+                            <td>
+                                <a th:href="@{/tasks/{id}(id=${task.id})}">
+                                    <span th:text="${task.getTitle()}">TITLE</span>
+                                </a>
+                            </td>
+                            <td>
+                                <span th:text="${task.leadTime}">DATE</span>
+                            </td>
+                            <td class="task-actions">
+                                <a href="#" th:href="@{/tasks/complete/{id}(id=${task.id})}">
+                                    <img th:src="@{icon/green-check.png}" alt="Complete Task">
+                                </a>
+                                <a href="#" th:href="@{/tasks/delete/{id}(id=${task.id})}">
+                                    <img th:src="@{icon/cross-delete.png}" alt="Delete Task">
+                                </a>
+                            </td>
+                        </tr>
+                    </div>
+                </div>
+            </table>
+        </div>
+    </div>
+
+    <div class="mt-4">
+        <button class="btn btn-primary">
+            <a th:href="@{/tasks/add}" style="color: white; text-decoration: none;">
+                Добавить новую задачу
+            </a>
+        </button>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
