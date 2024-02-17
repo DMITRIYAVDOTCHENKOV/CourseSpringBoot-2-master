@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c8064d-07aa-45d4-8c67-cbf2d1d4a579" name="Changes" comment="Семинар 9" />
+    <list default="true" id="13c8064d-07aa-45d4-8c67-cbf2d1d4a579" name="Changes" comment="семинар 11">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_lesson4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/model/UserActionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/model/UserActionLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/servicec/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/servicec/EmployeeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_lesson4/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,14 +39,14 @@
         <entry key="$PROJECT_DIR$" value="seminar5hw" />
       </map>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "DMITRIYAVDOTCHENKOV"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DMITRIYAVDOTCHENKOV&quot;
   }
-}]]></component>
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
@@ -113,87 +121,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DemoApplication.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.seminar_2.Main.executor": "Run",
-    "Application.seminar_2.seminar_2_1.config.Exam2Sem2.src.main.java.org.example.Main.executor": "Run",
-    "Application.seminar_2.seminar_2_1.config.Exam4Sem2.src.main.java.org.example.Main (1).executor": "Run",
-    "Application.seminar_2.seminar_2_1.config.Exam4Sem2.src.main.java.org.example.Main.executor": "Run",
-    "Application.seminar_2.seminar_2_1.config.Main.executor": "Run",
-    "Application.seminar_2.seminar_2_2.Main.executor": "Run",
-    "Application.test.Main.executor": "Run",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JUnit.EmployeeServiceImplTest.executor": "Run",
-    "JUnit.EmployeeServiceImplTest.getEmployeeById.executor": "Run",
-    "JUnit.EmployeeServiceImplTest.saveEmployee.executor": "Run",
-    "JUnit.EmployeeServiceIntegrationTest.executor": "Run",
-    "Maven.CourseSpringBoot [package].executor": "Run",
-    "Maven.hw_lesson4 [clean].executor": "Run",
-    "Maven.hw_lesson4 [install].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.Application.executor": "Run",
-    "Spring Boot.DemoApplication (1).executor": "Run",
-    "Spring Boot.DemoApplication.executor": "Run",
-    "Spring Boot.EurecaApplication.executor": "Run",
-    "Spring Boot.EurekaServerApplication.executor": "Run",
-    "Spring Boot.HomeTaskApplication.executor": "Run",
-    "Spring Boot.HomeWorksSeminar5Application.executor": "Run",
-    "Spring Boot.Hw5springApplication.executor": "Run",
-    "Spring Boot.HwLesson4Application.executor": "Run",
-    "Spring Boot.HwSeminar7Application.executor": "Run",
-    "Spring Boot.Lekciya7Application.executor": "Run",
-    "Spring Boot.Lesson4Task2Application.executor": "Run",
-    "Spring Boot.Microservize11Application.executor": "Run",
-    "Spring Boot.Microservize1Application.executor": "Run",
-    "Spring Boot.Microservize2Application.executor": "Run",
-    "Spring Boot.Seminar3RestApplication.executor": "Run",
-    "Spring Boot.Seminar5Task2Application.executor": "Run",
-    "Spring Boot.Seminar5task1Application.executor": "Run",
-    "Spring Boot.Spring4lessonApplication.executor": "Run",
-    "Spring Boot.SpringSecurityDemoApplication.executor": "Run",
-    "Spring Boot.Task11Application.executor": "Run",
-    "Spring Boot.Task3Application.executor": "Run",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "Seminar__10",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Java/java_Project/CourseSpringBoot-master/hw_lesson4/src/main/resources/templates",
-    "mysql-explain.agentPath": "C:\\Users\\Dmitrii\\AppData\\Roaming\\JetBrains\\IdeaIC2023.3\\plugins\\mysql-explain-intellij-plugin\\lib\\mysql-explain-agent-1.1.1-with-dependencies.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.seminar_2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.seminar_2.seminar_2_1.config.Exam2Sem2.src.main.java.org.example.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.seminar_2.seminar_2_1.config.Exam4Sem2.src.main.java.org.example.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.seminar_2.seminar_2_1.config.Exam4Sem2.src.main.java.org.example.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.seminar_2.seminar_2_1.config.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.seminar_2.seminar_2_2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.test.Main.executor&quot;: &quot;Run&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JUnit.EmployeeServiceImplTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeServiceImplTest.getEmployeeById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeServiceImplTest.saveEmployee.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EmployeeServiceIntegrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CourseSpringBoot [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hw_lesson4 [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hw_lesson4 [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hw_lesson4 [org.apache.maven.plugins:maven-clean-plugin:3.1.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hw_lesson4 [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hw_lesson4 [org.apache.maven.plugins:maven-install-plugin:2.5.2:install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.hw_lesson4 [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DemoApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurecaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HomeTaskApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HomeWorksSeminar5Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Hw5springApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HwLesson4Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.HwSeminar7Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Lekciya7Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Lesson4Task2Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Microservize11Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Microservize1Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Microservize2Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Seminar3RestApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Seminar5Task2Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Seminar5task1Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Spring4lessonApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringSecurityDemoApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Task11Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Task3Application.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/java_Project/CourseSpringBoot-master/hw_lesson4/src/main/resources/templates&quot;,
+    &quot;mysql-explain.agentPath&quot;: &quot;C:\\Users\\Dmitrii\\AppData\\Roaming\\JetBrains\\IdeaIC2023.3\\plugins\\mysql-explain-intellij-plugin\\lib\\mysql-explain-agent-1.1.1-with-dependencies.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql",
-      "h2"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;h2&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "H2"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;H2&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.example.HomeTask.repository" />
@@ -227,7 +239,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeServiceIntegrationTest">
+  <component name="RunManager" selected="Spring Boot.HwLesson4Application">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Empl1Sem8" />
@@ -348,6 +360,13 @@
     <configuration name="HomeTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="HomeTask" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.HomeTask.HomeTaskApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWorksSeminar5Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="homeWorksSeminar5" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.homeworksseminar5.HomeWorksSeminar5Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -530,7 +549,9 @@
       <workItem from="1707763935302" duration="664000" />
       <workItem from="1707848150024" duration="2130000" />
       <workItem from="1708015716032" duration="1012000" />
-      <workItem from="1708153299506" duration="4177000" />
+      <workItem from="1708153299506" duration="6097000" />
+      <workItem from="1708172394098" duration="4392000" />
+      <workItem from="1708196109659" duration="3210000" />
     </task>
     <task id="LOCAL-00001" summary="Домашняя работа по 1 семинару">
       <option name="closed" value="true" />
