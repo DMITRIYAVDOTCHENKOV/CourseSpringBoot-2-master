@@ -4,13 +4,14 @@ package com.example.hw_lesson4.model;
 
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-
-
-
-@Entity
 @Data
+@Entity
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "employees")
 public class Employee {
 
@@ -27,11 +28,4 @@ public class Employee {
     @Column(name = "email")
     private String email;
 
-    public Employee(int i, String john, String doe, String mail) {
-
-    }
-
-    public Employee() {
-
-    }
 }

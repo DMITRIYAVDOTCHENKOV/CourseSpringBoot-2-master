@@ -2,9 +2,13 @@ package com.example.hw_lesson4.aspect;
 
 
 import com.example.hw_lesson4.model.Employee;
+import com.example.hw_lesson4.observer.EmployeeCreateEvent;
+import com.example.hw_lesson4.servicec.FileGateWay;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 
 import java.io.BufferedWriter;
@@ -17,8 +21,23 @@ import java.util.Arrays;
 
 @Aspect
 @Component
-public class UserActionAspect {
+public class UserActionAspect implements ApplicationListener<EmployeeCreateEvent> {
+    @Autowired
+    FileGateWay fileGateWay;
+    Employee employee;
+    @Override
+    public void onApplicationEvent(EmployeeCreateEvent event) {
+        fileGateWay.writeToFile("D:/Java/java_Project/CourseSpringBoot-2-master/addUsers_log.txt", event.getEmployee().getLastName());
+        writeToTextFile("Добавлен пользователь: " + event.getEmployee().toString(), "user_actions_log.txt");
+    }
 
+    private void writeToTextFile(String logMessage, String fileName) {
+        try {
+            fileGateWay.writeToFile(fileName, logMessage);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
     @Before("@annotation(com.example.hw_lesson4.aspect.TrackUserAction)")
     public void trackUserAction(JoinPoint joinPoint) {
         String methodName = joinPoint.getSignature().getName();
@@ -40,11 +59,17 @@ public class UserActionAspect {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true))) {
             writer.write(logMessage);
             writer.newLine();
+            
+            onApplicationEvent(employee);
+
         } catch (IOException e) {
             // Обработка ошибок записи в файл
             e.printStackTrace();
         }
 
+    }
+
+    private void onApplicationEvent(Employee employee) {
     }
 
     private String employeeToString(Employee employee) {

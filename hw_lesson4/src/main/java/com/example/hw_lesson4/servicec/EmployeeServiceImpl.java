@@ -21,12 +21,12 @@ import java.util.Optional;
  * Реализация сервиса для управления сотрудниками
  */
 @Service
-
 public class EmployeeServiceImpl implements EmployeeService {
 
     @Autowired
-
     private EmployeeRepository employeeRepository;
+
+
 
     /**
      * Получение списка всех сотрудников
@@ -90,7 +90,6 @@ public class EmployeeServiceImpl implements EmployeeService {
      * @return Страница с отфильтрованным списком сотрудников
      */
     @Override
-
     public Page<Employee> findPaginated(int pageNo, int pageSize, String sortField, String sortDirection) {
         Sort sort = sortDirection.equalsIgnoreCase(Sort.Direction.ASC.name()) ? Sort.by(sortField).ascending() :
                 Sort.by(sortField).descending();

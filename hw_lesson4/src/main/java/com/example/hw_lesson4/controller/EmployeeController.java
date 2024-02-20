@@ -4,16 +4,15 @@ package com.example.hw_lesson4.controller;
 import java.util.List;
 
 import com.example.hw_lesson4.model.Employee;
-import com.example.hw_lesson4.servicec.EmployeeService;
+import com.example.hw_lesson4.observer.EmployeeUpdateListener;
+import com.example.hw_lesson4.servicec.EmployeeServiceImpl;
+import com.example.hw_lesson4.servicec.FileGateWay;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 
 
 /**
@@ -23,7 +22,17 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class EmployeeController {
 
     @Autowired
-    private EmployeeService employeeService;
+    private final FileGateWay fileGateWay;
+
+    @Autowired
+    private EmployeeServiceImpl employeeService;
+
+    @Autowired
+    ApplicationEventPublisher publisher;
+
+    public EmployeeController(FileGateWay fileGateWay) {
+        this.fileGateWay = fileGateWay;
+    }
 
     /**
      * Отображение домашней страницы со списком сотрудников
@@ -58,6 +67,7 @@ public class EmployeeController {
     @PostMapping("/saveEmployee")
     public String saveEmployee(@ModelAttribute("employee") Employee employee) {
         employeeService.saveEmployee(employee);
+        new EmployeeUpdateListener();
         return "redirect:/";
     }
 
@@ -113,4 +123,5 @@ public class EmployeeController {
         model.addAttribute("listEmployees", listEmployees);
         return "index";
     }
+
 }
