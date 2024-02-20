@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13c8064d-07aa-45d4-8c67-cbf2d1d4a579" name="Changes" comment="семинар 11">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+    <list default="true" id="13c8064d-07aa-45d4-8c67-cbf2d1d4a579" name="Changes" comment="семинар 11 дз">
+      <change afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/configuration/IntegrationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/observer/EmployeeCreateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/observer/EmployeeUpdateListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/servicec/DateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/servicec/FileGateWay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_lesson4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/aspect/UserActionAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/aspect/UserActionAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/model/UserActionLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/model/UserActionLog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/servicec/EmployeeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/src/main/java/com/example/hw_lesson4/servicec/EmployeeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_lesson4/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/hw_lesson4/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -23,8 +28,8 @@
       <list>
         <option value="Enum" />
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -551,7 +556,10 @@
       <workItem from="1708015716032" duration="1012000" />
       <workItem from="1708153299506" duration="6097000" />
       <workItem from="1708172394098" duration="4392000" />
-      <workItem from="1708196109659" duration="3210000" />
+      <workItem from="1708196109659" duration="4597000" />
+      <workItem from="1708266439885" duration="2144000" />
+      <workItem from="1708365444838" duration="6299000" />
+      <workItem from="1708451910987" duration="4177000" />
     </task>
     <task id="LOCAL-00001" summary="Домашняя работа по 1 семинару">
       <option name="closed" value="true" />
@@ -641,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707406970181</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="семинар 11 дз">
+      <option name="closed" value="true" />
+      <created>1708200923038</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1708200923038</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +696,8 @@
     <MESSAGE value="семинар7 домашняя работа" />
     <MESSAGE value="семинар8 домашняя работа" />
     <MESSAGE value="Семинар 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Семинар 9" />
+    <MESSAGE value="семинар 11 дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="семинар 11 дз" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
